@@ -1,4 +1,5 @@
 
+import 'package:clothestore_flutter_app/widgets/tabs_bar.dart';
 import 'package:flutter/material.dart';
 
 import 'package:clothestore_flutter_app/constants/constants.dart';
@@ -24,6 +25,7 @@ class HomePageScreen extends StatelessWidget {
           mainAxisSpacing: 25,
         ),
       ),
+      bottomNavigationBar: TabsBar()
     );
   }
 }

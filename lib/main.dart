@@ -4,6 +4,7 @@ import './pages/homepage_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'models/product.dart';
+import 'pages/checkout_screen.dart';
 import 'pages/product_detail_screen.dart';
 import 'pages/section_products_screen.dart';
 
@@ -37,6 +38,7 @@ class _MyAppState extends State<MyApp> {
         '/': (ctx) => HomePageScreen(),
         SectionProductsScreen.ROUTE_NAME: (ctx) => SectionProductsScreen(_availableProducts),
         ProductDetailScreen.ROUTE_NAME: (ctx) => ProductDetailScreen(),
+        CheckoutScreen.ROUTE_NAME: (ctx) => CheckoutScreen(),
       },
       
     );
